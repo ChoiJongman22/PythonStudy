@@ -3,7 +3,7 @@
 moim="StartUF"
 desc="당신의 가족같은 StartUF. Start: 공부 -> Ur 창업 Family"
 
-
+moim=5
 #아니 포인터의 개념이라고??
 
 a=10
@@ -49,7 +49,7 @@ lotto[2]=19
 print(lotto)
 
 #딕셔너리(map)
-map={"최종헌:개발자","정승훈:개발자?","유수안:디발자"}
+map={"최종헌":"개발자","정승훈":"개발자?","유수안":"디발자"}
 print(map)
 
 
@@ -76,6 +76,7 @@ print(a**b)
 'a' in 'banana' #True
 'seed' in 'banana' #False
 
+
 A=[0,1,1,2,3,5,8,13]
 if 3 in A:
     print("Yes")
@@ -88,11 +89,11 @@ while 4 in A:
 
 #입력하기
 
-name=input("당신의 이름은 무엇입니까?")
-print(name)
+# name=input("당신의 이름은 무엇입니까?")
+# print(name)
 
-age=int(input("당신이 가장 좋아하는 숫자는 뭡니까?"))
-print(age)
+# age=int(input("당신이 가장 좋아하는 숫자는 뭡니까?"))
+# print(age)
 
 
 print("game over")
@@ -143,5 +144,7 @@ for c in "Game Over":
     print(c)
 
 #리스트 컴프리헨션 맛보기
-a=[n*2 for n in range (1,10) if n%2==1]
+a=[n*2 for n in range (1,10) if n % 2 == 1]
 print(a)
+
+#1~30까지 5의 배수 출력하기
